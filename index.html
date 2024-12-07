@@ -21,10 +21,12 @@ tw-link
 }
 tw-passage {
   text-align: justify;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="FIN" color="red"></tw-tag><tw-tag name="Objet-spécial" color="blue"></tw-tag><tw-tag name="Argent" color="yellow"></tw-tag><tw-tag name="Point-d&#39;énergie" color="green"></tw-tag><tw-tag name="Nouvelle-étape" color="purple"></tw-tag><tw-passagedata pid="1" name="2 sous" tags="Argent" position="1100,5800" size="100,100">(set:$Money to $Money+2)Un peu d&#39;argent ne pourra jamais faire de mal ! Voilà //deux sous de plus// dans ta bourse. Tu remercies le violoniste et retournes vers [[les coulisses-&gt;en coulisses]], ou continues [[ton chemin-&gt;Le garde]].</tw-passagedata><tw-passagedata pid="2" name="Amant en colère" tags="Objet-spécial Nouvelle-étape" position="700,3650" size="100,100">Les cris proviennent d&#39;un homme excédé par les frasques de son amante, qui l&#39;a laissée pour un plus riche. Il hurle à qui veut l&#39;entendre qu&#39;il s&#39;apprête à aller tuer ce pendard.
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="FIN" color="red"></tw-tag><tw-tag name="Objet-spécial" color="blue"></tw-tag><tw-tag name="Argent" color="yellow"></tw-tag><tw-tag name="Point-d&#39;énergie" color="green"></tw-tag><tw-tag name="Nouvelle-étape" color="purple"></tw-tag><tw-passagedata pid="1" name="2 sous" tags="Argent" position="1100,5800" size="100,100">(set:$Money to $Money+2)Un peu d&#39;argent ne pourra jamais faire de mal ! Voilà //deux sous de plus// dans ta bourse. Tu remercies le violoniste et retournes vers [[les coulisses-&gt;en coulisses]], ou continues [[ton chemin-&gt;Le garde]].
+
+(link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="2" name="Amant en colère" tags="Objet-spécial Nouvelle-étape" position="700,3650" size="100,100">Les cris proviennent d&#39;un homme excédé par les frasques de son amante, qui l&#39;a laissée pour un plus riche. Il hurle à qui veut l&#39;entendre qu&#39;il s&#39;apprête à aller tuer ce pendard.
  (if:$HasFish is true)[Tu essaies de l&#39;en dissuader, et tu lui proposes de se venger autrement : &quot;J&#39;ai [[ce poisson, qui n&#39;a plus l&#39;air très bon -&gt;poisson fumé avarié]]. Peut-être voudrais-tu que je te le donne, et qu&#39;un bon flux de ventre mette hors d&#39;état de nuire ton concurrent ?&quot;] (else:) [Il ne fait pas bon rester à côté d&#39;un homme en colère, tu passes ton chemin : préfères-tu te diriger vers [[la rue ensoleillée-&gt;Le nerd du XVIe siècle]] ou [[le cul-de-sac-&gt;Rue de la clé]]]
 
- (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="3" name="Bonne Réponse Nerd" tags="" position="50,4225" size="100,100">Son visage s&#39;illumine et il s&#39;exclame : &quot;Dis donc, tu t&#39;y connais drôlement bien! Je pense que je peux te faire confiance. La chose la plus precieuse qu&#39;il y a dans ce monde est le savoir ! Et le meilleur des savoirs, c&#39;est celui d&#39;Oronce Fine... Un grand homme qui mérite que sa connaissance soit partagée. Je te laisse donc choisir entre ses deux objets, qui sont très chers à mon coeur ! J&#39;espère que tu en prendras grand soin !
+ (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="3" name="Bonne Réponse Nerd" tags="" position="50,4225" size="100,100">Son visage s&#39;illumine et il s&#39;exclame : &quot;Dis donc, tu t&#39;y connais drôlement bien! Je pense que je peux te faire confiance. La chose la plus precieuse qu&#39;il y a dans ce monde est le savoir ! Et le meilleur des savoirs, c&#39;est celui d&#39;Oronce Fine... Un grand homme qui mérite que sa connaissance soit partagée. Je te laisse donc choisir entre ces deux objets, qui sont très chers à mon coeur ! J&#39;espère que tu en prendras grand soin !
 
 Tu n&#39;as aucune idée de qui est cet homme, mais tu décides de jouer le jeu.
 Il te laisse choisir entre un petit [[portrait d&#39;Oronce Fine]] peint à l&#39;huile, ou un [[petit cadran solaire]] en ivoire.</tw-passagedata><tw-passagedata pid="4" name="La mère supérieure" tags="" position="500,7575" size="100,100">Absorbée par le feu de joie, tu ne remarques pas la silhouette qui s&#39;approche de toi. Elle commence à te faire une petite conversation, à propos du feu de paille, et c&#39;est avec effroi que tu reconnais sa voix : c&#39;est la mère supérieure, qui a pris soin de se déguiser elle aussi !
@@ -37,7 +39,7 @@ Le jeu a été prévu avant tout pour être transformé en livre dont vous êtes
 N&#39;hésitez pas à faire des remarques, si des choses vous semblent pas terribles.
 N&#39;hésitez pas non plus à dire si vous trouvez qu&#39;on a trop/pas assez de sous ou de points d&#39;énergie.
 Vous pouvez faire des remarques sur le style d&#39;écriture, le scénario, la difficulté, la mise en page, et tout ce qui vous semblera pertinent...
-&#39;&#39;TW&#39;&#39; : Attention, il y a des paroles homophobes, de la violence, et des réferences au viol de manière non descriptive.
+&#39;&#39;TW&#39;&#39; : Attention, il y a des propos homophobes, de la violence, et des réferences au viol de manière non descriptive.
 
 (align:&quot;=&gt;&lt;=&quot;)[Bon jeu :D]
 
@@ -45,11 +47,11 @@ Vous pouvez faire des remarques sur le style d&#39;écriture, le scénario, la d
 (align:&quot;=&gt;&lt;=&quot;)[&#39;&#39;A LA LUMIERE DE CARNAVAL ET DE CARÊME&#39;&#39;]
 
 
-Nous sommes en l&#39;an de grâce 1556, dans un petite ville des Flandres. Tu es Maria Theresia, jeune femme infortunément devenue bonne soeur. En effet, l&#39;on t&#39;a surprise en train d&#39;embrasser la fille du comte Van der Burch, et ton statut de lingère n&#39;a pas réussi à faire oublier tes frasques. Tu as été forcée de t&#39;enrôler dans les ordres pour échapper au déshonneur et à l&#39;opprobre. 
+Nous sommes en l&#39;an de grâce 1556, dans une petite ville des Flandres. Tu es Maria Theresia, jeune femme infortunément devenue bonne soeur. En effet, l&#39;on t&#39;a surprise en train d&#39;embrasser la fille du comte Van der Burch, et ton statut de lingère n&#39;a pas réussi à faire oublier tes frasques. Tu as été forcée de d&#39;entrer dans les ordres pour échapper au déshonneur et à l&#39;opprobre. 
 Mais aujourd&#39;hui, c&#39;est carnaval, et tout le couvent est de sortie pour se mêler à la foule joyeuse. En revanche, la mère supérieure connaît ton histoire et se méfie de toi, elle sait que tu n&#39;es pas là pour rendre grâce au Seigneur...
-Ta bien-aimée a elle réussi à s&#39;enfuir et t&#39;a envoyé un courrier dans lequel elle t&#39;indique que tu peux la retrouver le soir de carnaval dans un village non loin de là. Un cheval t&#39;attendra ce soir à la sortie du village, pour que tu puisses rejoindre le village où se trouve ton amoureuse. Aujourd&#39;hui est le seul jour de l&#39;année où te balader déguisée n&#39;attirera pas l&#39;oeil, et cela te permettra de plus de circuler plus tranquillement et d&#39;échapper aux regards indiscrets.
+Ta bien-aimée a elle réussi à s&#39;enfuir et t&#39;a envoyé un courrier dans lequel elle t&#39;indique que tu peux la retrouver le soir de carnaval dans un hameau non loin de là. Un cheval t&#39;attendra à la sortie du village, pour que tu la rejoignes.Aujourd&#39;hui est le seul jour de l&#39;année où te balader déguisée n&#39;attirera pas l&#39;oeil. Cela te permettra de circuler plus tranquillement et d&#39;échapper aux regards indiscrets.
 
-Tu pars avec 3 florins en poche (12 sous = 1 florin), toute ta fortune économisée au couvent, et 4 points d&#39;énergie, après le solide petit déjeuner que tu as fait au couvent ce matin. N&#39;hésite pas à consulter régulièrement ton inventaire. Tu y trouveras : les objets que tu récolteras tout au long de l&#39;aventure, ton niveau d&#39;énergie et l&#39;argent qu&#39;il te reste en poche. Bonne chance, et que l&#39;amour de ta dulcinée te porte tout au long de cette aventure !
+Tu pars avec 3 florins en poche (12 sous = 1 florin), toute ta fortune économisée au couvent, et 4 points d&#39;énergie, après le solide petit déjeuner que tu as pris ce matin. N&#39;hésite pas à consulter régulièrement ton inventaire. Tu y trouveras : les objets que tu récolteras tout au long de l&#39;aventure, ton niveau d&#39;énergie et l&#39;argent qu&#39;il te reste en poche. Bonne chance, et que l&#39;amour de ta dulcinée te porte tout au long de cette aventure !
 
 Tu es obligée d&#39;avoir au moins un point d&#39;énergie pour continuer l&#39;aventure. 
 Les gains et pertes de points d&#39;énergie te seront indiqués (text-colour:red)[en rouge], ceux d&#39;argent //en italique// et ceux d&#39;objets &#39;&#39;en gras&#39;&#39;.
@@ -74,7 +76,9 @@ Tu continues ta route vers une [[boutique défraîchie-&gt;entrée prêteur sur 
 Elle s&#39;en saisit, et lâche un &quot;Non, ce n&#39;est pas pour moi. Mais ne t&#39;inquiète pas je vais lui donner&quot;, accompagné d&#39;un sourire hypocrite. Tu comprends tout de suite qu&#39;elle ne lui donnera pas... Elle reprend, avant que tu n&#39;aies pu lui redemander la lettre. &quot;Que fais-tu dans les coulisses, de toute façon?&quot;. Tu lui expliques à contrecoeur que tu es là pour trouver un masque. Elle te répond, avec une voix mielleuse : &quot;Je peux te proposer ce magnifique masque pour //10 sous//.&quot;
 C&#39;est un prix exorbitant pour un masque un peu miteux...
 (set:$HasLetter to false)
-(if:$Money&gt;=10)[Tu peux quand même [[l&#39;acheter-&gt;acheter le masque 10]] malgré tout, ou bien décider de la saluer et de [[sortir des coulisses-&gt;Le garde]].](else:)[Tu manques d&#39;argent, tu décides donc de la saluer et de [[sortir des coulisses-&gt;Le garde]].]</tw-passagedata><tw-passagedata pid="10" name="Marchand de légumes" tags="Objet-spécial Nouvelle-étape" position="650,4125" size="100,100">Tu t&#39;arrêtes devant les étals bien garnis du primeur. Alors que tu regardes les courges d&#39;un oeil curieux, le marchand s&#39;approche de toi :
+(if:$Money&gt;=10)[Tu peux quand même [[l&#39;acheter-&gt;acheter le masque 10]] malgré tout, ou bien décider de la saluer et de [[sortir des coulisses-&gt;Le garde]].](else:)[Tu manques d&#39;argent, tu décides donc de la saluer et de [[sortir des coulisses-&gt;Le garde]].]
+
+(link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="10" name="Marchand de légumes" tags="Objet-spécial Nouvelle-étape" position="650,4125" size="100,100">Tu t&#39;arrêtes devant les étals bien garnis du primeur. Alors que tu regardes les courges d&#39;un oeil curieux, le marchand s&#39;approche de toi :
 &quot;Qu&#39;est-ce qui vous ferait plaisir ma petite dame ? J&#39;ai reçu de très beaux navets juste ce matin, ils sont tout frais !&quot;
 Ce ne sont malheureusement pas les navets qui t&#39;intéressent le plus... Aurais-tu plus envie d&#39;[[une poire]] ou est-ce que [[tu hésites]] ?
 
@@ -106,7 +110,9 @@ Son visage s&#39;illumine en reconnaissant l&#39;écriture du tailleur, et elle 
 Tu lui expliques que tu cherches un masque, et elle te propose un simple, mais joli masque assorti à ta cape pour //quatre sous//. Elle s&#39;excuse de te faire payer, mais tu comprends bien que la vie de comédien n&#39;est pas luxueuse.
 (set:$HasLetter to false)
 (if:$Money&gt;=4)[Le masque te paraît vraiment bon marché pour ce qu&#39;il est. Tu peux [[l&#39;acheter-&gt;acheter le masque 4]], ou décider de la saluer et de [[sortir des coulisses-&gt;Le garde]].]
-(else:)[Tu n&#39;as malheureument pas assez d&#39;argent pour acheter le masque. Tati te regarde avec un regard attristé, mais sait ce que c&#39;est de ne pas avoir un sou en poche. Tu la salues timidement, un peu honteuse, et tu [[sors des coulisses-&gt;Le garde]].]</tw-passagedata><tw-passagedata pid="18" name="Théâtre" tags="Nouvelle-étape" position="725,5250" size="100,100">Tu arrives sur une petite place et une pièce de théâtre est jouée sur une scène improvisée. La pièce se finit tout juste. Sur la scène il y a un prince et trois princesses qui donnent leur nom de scène :  Lidon en vert, Tati en rose et Merle en bleu. Tu remarques, amusée, que Merle est un homme et n&#39;a même pas pris la peine de se raser pour la pièce. Le public est encore tout occupé à acclamer le spectacle qu&#39;il vient de voir.
+(else:)[Tu n&#39;as malheureument pas assez d&#39;argent pour acheter le masque. Tati te regarde avec un regard attristé, mais sait ce que c&#39;est de ne pas avoir un sou en poche. Tu la salues timidement, un peu honteuse, et tu [[sors des coulisses-&gt;Le garde]].]
+
+(link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="18" name="Théâtre" tags="Nouvelle-étape" position="725,5250" size="100,100">Tu arrives sur une petite place et une pièce de théâtre est jouée sur une scène improvisée. La pièce se finit tout juste. Sur la scène il y a un prince et trois princesses qui donnent leur nom de scène :  Lidon en vert, Tati en rose et Merle en bleu. Tu remarques, amusée, que Merle est un homme et n&#39;a même pas pris la peine de se raser pour la pièce. Le public est encore tout occupé à acclamer le spectacle qu&#39;il vient de voir.
 
 Tu décides d&#39;aller [[en coulisses]] pour les féliciter et trouver un masque si tu n&#39;en as pas, ou bien tu peux te [[mêler à la petite foule]]. 
 
@@ -175,7 +181,7 @@ Tu [[ressors-&gt;embranchement chat-lettre]] avec ta belle cape qui couvrira ta 
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)
 (set:$HasGoodCloak to true)</tw-passagedata><tw-passagedata pid="36" name="bonneteur" tags="Argent" position="900,500" size="100,100">Un jeu de bonneteau se trouve installé sur une caisse de fortune, dans un coin de la place. Une dizaine de badauds sont attroupés autour du maître du jeu :
-“Approchez, approchez, venez trouver la balle, ma soeur, faites vos jeux, où est la balle ?” Il place la balle sous la tasse du centre, puis inverse la position des tasses du centre et de droite, de gauche et du centre, puis de droite et de gauche .(if: $Money&gt;=6)[Pariez //un demi-florin//.(set: $Money to $Money-6)
+“Approchez, approchez, venez trouver la balle, ma soeur, faites vos jeux, où est la balle ?” Il place la balle sous la tasse du centre, puis inverse la position des tasses du centre et de droite, de gauche et du centre, puis de droite et de gauche .(if: $Money&gt;=6)[Parie //un demi-florin//.(set: $Money to $Money-6)
 La balle est à [[gauche]], au [[milieu]] ou à [[droite]] ?]
 (else:)[Tu vas à [[l&#39;auberge]], dépitée de ne pas avoir assez d&#39;argent pour jouer.]
 
@@ -188,7 +194,8 @@ La balle est à [[gauche]], au [[milieu]] ou à [[droite]] ?]
 
 FIN
 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[Si près du but...]
+(align:&quot;=&gt;&lt;=&quot;)[Si près du but...]
+(link-goto: &quot;Recommencer l&#39;aventure&quot;, &quot;Le début&quot;)
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="39" name="carrosse en bourgeoise" tags="" position="575,9200" size="100,100">Le cocher du carrosse te repère, dans ta belle toilette, et te demande avec respect où tu veux aller. Tu lui indiques le village où tu as rendez-vous avec ton amoureuse, mais bien qu&#39;il ait l&#39;air un peu surpris, dès que tu t&#39;assieds à l&#39;intérieur, le carrosse démarre en trombe. En un rien de temps, tu arrives au lieu de rendez-vous.
 
@@ -219,12 +226,14 @@ FIN
 FIN
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="44" name="courir jusqu&#39;à te mettre en sécurité" tags="Point-d&#39;énergie" position="625,1975" size="100,100">(set:$Energy to $Energy-2)
-Ouf ! Tu réussis à te réfugier chez le [[tailleur]] juste à temps. Tu as semé l&#39;animal féroce, mais ce n&#39;est pas sans perte ! Outre avoir perdu ton souffle, (text-colour:red)[tu perds 2 points d&#39;énergie]. Le chien ne te voyant plus, il ne lui reste qu&#39;à retourner d&#39;où il venait, et chercher d&#39;autres mollets à se mettre sous la dent.</tw-passagedata><tw-passagedata pid="45" name="d&#39;emprunter le long sentier" tags="" position="425,9075" size="100,100">Le chemin est long et sinueux, et tu n&#39;as malheureusement rien sur toi pour te restaurer.
-(if:$Energy-4 &gt;=0)[ Malgré tout, tu décides de rassembler toutes tes forces : l&#39;amour de ta vie mérite bien cela ! Tu arrives au point de rendez-vous après de longues heures de marche à travers bois, au lieu dit du rendez-vous, alors que les premières lueurs du jour poignent à peine, et qu&#39;une odeur des plus alléchantes s&#39;échappe de la boulangerie voisine. Ta dulcinée t&#39;attend en dehors de l&#39;auberge, épuisée et inquiète ; elle ne t&#39;attendait presque plus. Vous osez évidemment à peine vous étreindre en public, et préférez trouver un lieu au calme, à l&#39;abri de tout regard indiscret pour fêter vos retrouvailles.
-(set:$Energy to $Energy-4)
+Ouf ! Tu réussis à te réfugier chez le [[tailleur]] juste à temps. Tu as semé l&#39;animal féroce, mais ce n&#39;est pas sans perte ! Outre avoir perdu ton souffle, (text-colour:red)[tu perds 2 points d&#39;énergie]. Le chien ne te voyant plus, il ne lui reste qu&#39;à retourner d&#39;où il venait, et chercher d&#39;autres mollets à se mettre sous la dent.</tw-passagedata><tw-passagedata pid="45" name="d&#39;emprunter le long sentier" tags="" position="425,9075" size="100,100">Le chemin va être long et sinueux, tu décides alors de (text-colour:red)[manger tout ce que tu as sur toi] pour rassembler toutes tes forces : l&#39;amour de ta vie mérite bien cela !(if:$HasFish is true)[(set:$Energy to $Energy+1)(set:$HasFish to false)](if:$HasPie is true)[(set:$Energy to $Energy+1)(set:$HasPie to false)](if:$HasMeat is true)[(set:$Energy to $Energy+1)(set:$HasMeat to false)](if:$HasPear is true)[(set:$Energy to $Energy+1)(set:$HasPear to false)]
+(if:$Energy-5 &gt;=0)[Tu arrives au point de rendez-vous après de longues heures de marche à travers bois, au lieu dit du rendez-vous, alors que les premières lueurs du jour poignent à peine, et qu&#39;une odeur des plus alléchantes s&#39;échappe de la boulangerie voisine. Ta dulcinée t&#39;attend en dehors de l&#39;auberge, épuisée et inquiète ; elle ne t&#39;attendait presque plus. Vous osez évidemment à peine vous étreindre en public, et préférez trouver un lieu au calme, à l&#39;abri de tout regard indiscret pour fêter vos retrouvailles.
+(set:$Energy to $Energy-5)
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[&#39;&#39;BRAVO, TU AS REUSSI L&#39;AVENTURE !&#39;&#39;]]
 (else:)[Malgré tous tes efforts, tu n&#39;arrives pas à te défaire des ronces qui s&#39;agrippent d&#39;abord à tes jupons, puis à tes jambes. Tu tombes d&#39;épuisement au beau milieu du sentier.
 Si proche du but...]
+
+(link-goto: &quot;Recommencer l&#39;aventure&quot;, &quot;Le début&quot;)
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="46" name="de droite" tags="Objet-spécial" position="500,1150" size="100,100">(set: $HasRope to true)
 C&#39;est la grande paille ! L&#39;enfant te tend &#39;&#39;un bout de corde&#39;&#39; d&#39;environ deux coudées, puis file sans mot dire. Décidément, il a un bien étrange comportement... Mais tu n&#39;as pas le temps de réfléchir plus longtemps à ce phénomène que tu aperçois la mère supérieure qui monte les ecaliers à pas de géants.
@@ -412,7 +421,7 @@ Aurais-tu plus envie d&#39;aller chez [[le poissonnier]] ou [[le boucher]] ?
 (print:($Energy))</tw-passagedata><tw-passagedata pid="73" name="l&#39;auberge" tags="" position="750,850" size="100,100">Tu entres dans l’auberge, qui est remplie de badauds aussi assoiffés que toi, et qui se rassemblent autour du bar pour commander force alcool et fumaisons. Il te semble difficile dans ces conditions d&#39;arriver à boire quoi que ce soit sans attendre de longues minutes, ce qui te semble déraisonnable dans ta situation... Tu as à peine eu le temps de constater cela que tu aperçois au loin la mère supérieure qui se dirige vers l’auberge. Tu décides de monter à l’étage pour essayer de lui échapper, car tu te doutes qu&#39;elle est à ta recherche, et sait que cette auberge était un lieu où tu te rendais régulièrement avant d&#39;entrer au couvent, comme la femme de petite vie qu&#39;elle considère que tu es.
 En haut se trouvent trois personnes :
 [[un enfant]] occupé à trifouiller des choses que tu ne devines pas, [[un couple d’amoureux]] qui se regarde avec passion, et
-[[un homme qui semble très concentré par ce qui se passe à l&#39;extérieur de l&#39;auberge  et te tourne le dos-&gt;l&#39;ivrogne]].
+[[un homme-&gt;l&#39;ivrogne]] qui semble très concentré par ce qui se passe à l&#39;extérieur de l&#39;auberge  et te tourne le dos.
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="74" name="l&#39;enfant déguisé" tags="Point-d&#39;énergie Nouvelle-étape Objet-spécial" position="600,6850" size="100,100">Un enfant déguisé court dans les rues, en chantant. Toi qui es aussi déguisée, tu t&#39;amuses à essayer de la suivre.
 &lt;!A séparer dans le livre&gt;
@@ -425,7 +434,7 @@ En haut se trouvent trois personnes :
 (set:$Energy to $Energy-1)(if:$Energy&lt;=0)[(link-goto: &quot;Tu n&#39;as plus de points d&#39;énergie, repose-toi.&quot;, &quot;Mort de manque d&#39;NRJ&quot;)](else:)[Décidée à ne plus écouter cet oiseau de mauvais augure, tu sors de la boutique un peu vexée et vas chez le [[tailleur]].]
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="76" name="l&#39;ivrogne" tags="Objet-spécial" position="750,1000" size="100,100">Lorsque tu lui tapes sur l&#39;épaule de l&#39;homme, celui-ci se retourne et dégobille partout sur ta robe noire de bonne soeur. Tu ne l&#39;appréciais déjà pas particulièrement, mais l&#39;idée d&#39;être &#39;&#39;recouverte de la vomissure&#39;&#39; d&#39;un piètre ivrogne, qui plus est un inconnu, te répugne d&#39;autant plus. 
-Le couple est trop occupé à s&#39;embrassser langoureusement pour se rendre compte de la scène, mais l&#39;enfant s&#39;enfuit par les escaliers en exprimant tapageusement son dégoût. Ce faisant, il bouscule une femme dans les escaliers, qui peste d&#39;une voix qui te semble familière : c&#39;est la mère supérieure!
+Le couple est trop occupé à s&#39;embrasser langoureusement pour se rendre compte de la scène, mais l&#39;enfant s&#39;enfuit par les escaliers en exprimant tapageusement son dégoût. Ce faisant, il bouscule une femme dans les escaliers, qui peste d&#39;une voix qui te semble familière : c&#39;est la mère supérieure!
 
 C&#39;est un peu la panique, et il te faudra réfléchir vite et bien pour te tirer de cette situation délicate : tu peux aller voir [[le couple-&gt;le couple dégoûté]] pour lui demander de l&#39;aide, ou aller [[confronter]] directement la mère supérieure, pour que vous vous expliquiez, ou bien de [[sauter par la fenêtre]] en brisant un carreau.
 (set:$HasVomit to true)
@@ -433,7 +442,6 @@ C&#39;est un peu la panique, et il te faudra réfléchir vite et bien pour te ti
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="77" name="la jeune femme triste" tags="Nouvelle-étape" position="550,6250" size="100,100">Tu entends une jeune femme qui pleure sur le porche d&#39;une maison à l&#39;air terni par le temps qui passe, comme si elle portait le chagrin de chacun de ses propriétaires. Tu viens la voir et quand tu lui demandes ce qu&#39;il ne va pas, elle te regarde les yeux brillants de larmes et te répond, accablée, qu&#39;elle est promise à un vieil homme connu pour être un pouacre fornicateur qui la rebute sous tous ses aspects. Elle poursuit en hoquetant que son jules l&#39;a laissée sans nouvelles et ne daigne même plus la regarder lorsqu&#39;ils se croisent. 
 (if:$HasJoke is true)[Tu peux lui [[raconter une blague]] pour la réconforter ou tu peux lui [[faire un câlin]].]
 (else:)[Tu lui [[fais un câlin pour la rassurer-&gt;faire un câlin]].]
-
 
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="78" name="la justice" tags="Point-d&#39;énergie" position="0,1850" size="100,100">(set:$Energy to $Energy-2)La Justice ! Signe d&#39;un blocage prochain à venir sur ton chemin... Ce n&#39;est pas un bon présage dans ta quête actuelle... Tu es déprimée par cette nouvelle et (text-colour:red)[perds deux points d&#39;énergie]. 
@@ -447,6 +455,8 @@ La nuit commence à tomber, et tu décides de retourner sur [[la place du villag
 Il trotte tranquillement le long de la route qui mène au village où t&#39;attend ton amoureuse. Dix heures sonnant à peine, tu pénètres dans l&#39;humble bourgade, et te dirige vers la taverne, où tu sais que t&#39;attend ta dulcinée. Vous vous faites un petit signe discret, et elle te suit jusqu&#39;à l&#39;orée du bois, où vous pouvez enfin vous étreindre passionément pour fêter vos retrouvailles. (set:$HasStraw to false)
 
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[&#39;&#39;BRAVO, TU AS REUSSI L&#39;AVENTURE !&#39;&#39;]
+
+(link-goto: &quot;Recommencer l&#39;aventure&quot;, &quot;Le début&quot;)
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="81" name="la place" tags="" position="700,400" size="100,100">De retour sur la place, tu te trouves totalement obnubilée par la vision d&#39;un immense bonhomme constitué de paille, et construit uniquement pour que l&#39;on y mette le feu la nuit venue. Tu aimerais pouvoir t&#39;en approcher pour le voir de plus près, mais il te faudrait pour cela traverser toute la place et jouer des coudes au milieu de la foule. Sans costume, cela te semble bien trop risqué, surtout en sachant que la mère supérieure a des yeux partout... A proximité directe de l&#39;endroit où tu te trouves, tu aperçois [[deux femmes]], très absorbées dans leur conversation, et un [[bonneteur]] qui harangue les badauds.
 
@@ -514,6 +524,8 @@ FIN
 
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[Si près du but...]
 
+(link-goto: &quot;Recommencer l&#39;aventure&quot;, &quot;Le début&quot;)
+
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="97" name="le poissonnier" tags="Argent" position="450,125" size="100,100">En entrant dans la boutique, une forte odeur de poisson te prend le nez.
 Au comptoir, une vieille femme à l&#39;air aigri te demande ce que tu voudrais prendre.
 Tu lui demandes si elle pourrait te vendre un poisson qui se conserve longtemps. Elle te pointe alors du doigt le [[hareng doré]] qui a été fait pour carnaval et te dit qu&#39;il t&#39;en coûtera //4 sous//.
@@ -524,7 +536,9 @@ Tu peux aussi sortir de l&#39;échoppe, et ne [[rien]] lui acheter.
 Il te laisse passer, et te souhaite même une bonne soirée. Tu es [[dehors!]]
 (set:$Money to $Money-24)
 
-(link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="99" name="les comédiens s&#39;embrassent" tags="" position="575,5575" size="100,100">En passant à droite, tu te promènes entre deux rangées de roulottes. La porte de l&#39;une d&#39;elle est entrouverte, avec une clé encore dans la serrure, marquée d&#39;une étiquette &quot;Passe-Partout&quot;. Tu peux prendre la clé et [[retourner à la roulotte centrale]], ou tu peux décider de [[rentrer sans frapper]], ou de [[frapper à la porte]].</tw-passagedata><tw-passagedata pid="100" name="les rues du village" tags="Objet-spécial Nouvelle-étape" position="600,1475" size="100,100">Les rues sont étroites et grouillent d&#39;une foule qui s&#39;affaire pour les derniers préparatifs de la parade de carnaval, qui aura lieu dans quelques heures. Tu n&#39;as déjà subi que trop de désagréments, et il te faudrait impérativement trouver un costume pour ne pas te faire reconnaître par la mère supérieure et les quelques villageois malintentionnés qui ont déjà eu vent de ton histoire. 
+(link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="99" name="les comédiens s&#39;embrassent" tags="" position="575,5575" size="100,100">En passant à droite, tu te promènes entre deux rangées de roulottes. La porte de l&#39;une d&#39;elle est entrouverte, avec une clé encore dans la serrure, marquée d&#39;une étiquette &quot;Passe-Partout&quot;. Tu peux prendre la clé et [[retourner à la roulotte centrale]], ou tu peux décider de [[rentrer sans frapper]], ou de [[frapper à la porte]].
+
+(link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="100" name="les rues du village" tags="Objet-spécial Nouvelle-étape" position="600,1475" size="100,100">Les rues sont étroites et grouillent d&#39;une foule qui s&#39;affaire pour les derniers préparatifs de la parade de carnaval, qui aura lieu dans quelques heures. Tu n&#39;as déjà subi que trop de désagréments, et il te faudrait impérativement trouver un costume pour ne pas te faire reconnaître par la mère supérieure et les quelques villageois malintentionnés qui ont déjà eu vent de ton histoire. 
 (if:$HasVomit is true)[Si ta robe est souillée de vomi, tu peux aller à la [[lingerie]] aux confins de la ville.
 Tu peux aussi [[t&#39;en moquer]] et continuer ton aventure.](else:)[&lt;!Si tu n&#39;as subi aucun incident qui a souillé ta robe&gt; Suis un peu [[le flot]] du monde une fois remise de tes émotions pour voir ce que les rues ont à t&#39;offrir. Tu y trouveras sûrement de quoi te déguiser.]
 
@@ -539,7 +553,9 @@ Effectivement, le couteau est magnifique, et parfaitement aiguisé qui plus est.
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="103" name="lui parler" tags="" position="300,5825" size="100,100">Tu l&#39;approches de manière hardie, et, sans détour, tu lui demandes si tu pourrais lui acheter un masque.
 Reprenant son rôle de prince charmant, il t&#39;en propose un, tout en effectuant une magnifique courbette qui ferait rougir ces dames de la Cour. Dans sa révérence, il te tend de sa main gauche un élégant masque sans fioriture. Il te le propose pour //8 sous//.
 (if:$Money&gt;=8)[Ta bourse te le permettant, tu peux lui [[acheter-&gt;acheter le masque 8]]  ou sortir des coulisses et te diriger [[loin de la scène-&gt;Le garde]].]
-(else:)[Tu n&#39;as malheureusement pas assez d&#39;argent sur toi pour te permettre une telle folie. Tu ressors donc des coulisses et te dirige [[loin de la scène-&gt;Le garde]].]</tw-passagedata><tw-passagedata pid="104" name="manger" tags="Point-d&#39;énergie" position="950,350" size="100,100">(set: $HasMeat to false)(set: $Energy to $Energy+1)Tu attrapes le morceau de boeuf séché et te mets à le mastiquer avec énergie. Il a plutôt bon goût, bien qu&#39;il soit coriace et un peu trop salé. Tu gagnes (text-colour:red)[un point d&#39;énergie] et te sens toute revigorée pour retourner sur [[la place]].
+(else:)[Tu n&#39;as malheureusement pas assez d&#39;argent sur toi pour te permettre une telle folie. Tu ressors donc des coulisses et te dirige [[loin de la scène-&gt;Le garde]].]
+
+(link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="104" name="manger" tags="Point-d&#39;énergie" position="950,350" size="100,100">(set: $HasMeat to false)(set: $Energy to $Energy+1)Tu attrapes le morceau de boeuf séché et te mets à le mastiquer avec énergie. Il a plutôt bon goût, bien qu&#39;il soit coriace et un peu trop salé. Tu gagnes (text-colour:red)[un point d&#39;énergie] et te sens toute revigorée pour retourner sur [[la place]].
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="105" name="manger la poire" tags="Point-d&#39;énergie" position="800,4425" size="100,100">Tu manges la poire qui est délicieusement juteuse et sucrée. Elle te redonne instantanément du baume au coeur et te fais gagner (text-colour:red)[un point d&#39;énergie].
 (set:$Energy to $Energy+1)
@@ -553,7 +569,7 @@ Préfères-tu suivre les exclamations enthousiastes qui semblent provenir d&#39;
 Tu entends au loin du bruit dans [[une rue bondée-&gt;bonimenteur]], mais tu peux aussi aller vers [[une boutique de laquelle s&#39;échappe une odeur alléchante-&gt;boulangerie]]</tw-passagedata><tw-passagedata pid="108" name="massepain donné" tags="Objet-spécial" position="700,6675" size="100,100">Tu allais partir quand tu vois une femme arriver à la fenêtre derrière le massepain. Elle l&#39;ouvre et te voit observer avec insitance le gâteau. Elle te propose gentiment d&#39;en &#39;&#39;prendre une part&#39;&#39;. Tu acceptes avec plaisir, et repart satisfaite.(set:$HasPie to true)
 Au bout de la rue, tu peux choisir de tourner [[à gauche-&gt;la porte fermée]] ou [[à droite-&gt;l&#39;enfant déguisé]].
 
-(link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="109" name="massepain garde" tags="" position="225,8725" size="100,100">Tu sors de ta bourse la belle part de massepain à la rose. Le garde, alléché, te tint à peu près ce langage : &quot;Eh bonjour belle demoiselle, que vous êtes jolie, que votre massepain sent bon. Sans mentir, si vous m&#39;en donniez une part, je ne répondrais plus de rien.&quot; Tu sautes sur l&#39;occasion et lui &#39;&#39;donnes l&#39;intégralité du morceau&#39;&#39;. Alors qu&#39;il se jette goulûment sur la pâtisserie, tu en profites pour [[passer la porte-&gt;dehors!]], sans même qu&#39;il ne sourcille.
+(link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="109" name="massepain garde" tags="" position="225,8725" size="100,100">Tu sors de ta bourse la belle part de massepain à la rose. Le garde, par l&#39;odeur alléchée, te tint à peu près ce langage : &quot;Eh bonjour belle demoiselle, que vous êtes jolie, que votre massepain sent bon. Sans mentir, si vous m&#39;en donniez une part, je ne répondrais plus de rien.&quot; Tu sautes sur l&#39;occasion et lui &#39;&#39;donnes l&#39;intégralité du morceau&#39;&#39;. Alors qu&#39;il se jette goulûment sur la pâtisserie, tu en profites pour [[passer la porte-&gt;dehors!]], sans même qu&#39;il ne sourcille.
 (set:$HasPie to false)
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="110" name="mauvaise cape" tags="Objet-spécial" position="775,2450" size="100,100">Le tailleur qui se dirigeait vers une jolie cape ocre s&#39;arrête et dit : &quot;Pour une besogne si dure, vous n&#39;allez pas abîmer une si belle cape !&quot;
 Il te tend alors un grand morceau de tissu ou une &#39;&#39;cape très laide&#39;&#39;, tu ne sais pas trop. Il s&#39;agit en tout cas d&#39;une toile de jute de mauvaise qualité.
@@ -647,14 +663,16 @@ FIN
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="132" name="retourner à la roulotte centrale" tags="FIN" position="700,5750" size="100,100">Fière de ton larcin, tu ouvres la roulotte centrale et tombe nez à nez avec un grand gaillard qui te traite de voleuse. Apeurée, tu cours autour de la roulotte et dans ta course tu rentres dans un chaudron de soupe brûlante. Tu es ébouillantée et pleine de soupe au chou.
 
-FIN</tw-passagedata><tw-passagedata pid="133" name="rien" tags="" position="600,250" size="100,100">Il vaut mieux garder ton précieux argent durement gagné pour des choses qui seront plus utiles plus tard. Retourne sur [[la place]] pour continuer à investiguer le lieu. 
+FIN
+
+(link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="133" name="rien" tags="" position="600,250" size="100,100">Il vaut mieux garder ton précieux argent durement gagné pour des choses qui seront plus utiles plus tard. Retourne sur [[la place]] pour continuer à investiguer le lieu. 
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="134" name="sans rien pour cacher ta robe" tags="FIN" position="225,2450" size="100,100">Tu sais que tu ne retrouveras nulle part une cape assez grande pour cacher ta robe. Il ne faut que peu de temps avant qu&#39;on ne te reconnaisse dans les rues et qu&#39;on ne te réexpédie au couvent.
 
 FIN
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="135" name="sauter par la fenêtre" tags="" position="350,1300" size="100,100">(set:$Energy to $Energy-2)
-La poignée de la fenêtre résiste en effet, et tu n&#39;as pas le temps de réfléchir plus longtemps, car la mère supérieure est sur tes talons. Tu prends ton courage à deux mains et saute par la fenêtre, qui éclate en mille morceaux. Tu saignes un peu mais l&#39;épaisseur de ton atroce robe noire t&#39;a bien protégée des bris de verre, et la corde t&#39;a permis d&#39;éviter une chute potentiellement mortelle. Tu perds tout de même (text-colour:red)[2 points d&#39;énergie].
+La poignée de la fenêtre résiste, et tu n&#39;as pas le temps de réfléchir plus longtemps, car la mère supérieure est sur tes talons. Tu prends ton courage à deux mains et saute par la fenêtre, qui éclate en mille morceaux. Tu saignes un peu mais l&#39;épaisseur de ton atroce robe noire t&#39;a bien protégée des bris de verre, et la corde t&#39;a permis d&#39;éviter une chute potentiellement mortelle. Tu perds tout de même (text-colour:red)[2 points d&#39;énergie].
 (if:$Energy&lt;=0)[(link-goto: &quot;Tu n&#39;as plus de points d&#39;énergie, repose-toi.&quot;, &quot;Mort de manque d&#39;NRJ&quot;)]
 (else:)[Enfonce-toi dans [[les rues du village]] pour échapper à la vigilance de la mère supérieure.]
 
@@ -739,7 +757,7 @@ Mais trêve d&#39;appitoiement : choisis-tu l&#39;herbe [[de gauche]] ou l&#39;h
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="153" name="un grand reste de tissu" tags="" position="375,2200" size="100,100">Il comprend que ton budget est un peu serré, mais tu sens qu&#39;il a du mal à te donner sa chute de tissu de mauvaise qualité. 
 
-Au moment où tu allais partir, son visage s&#39;illumine et il te propose un marché : il t&#39;offre le morceau le long morceau de tissu si tu acceptes de livrer une lettre à une personne qui répondant au nom de &quot;Mathilde&quot;.
+Au moment où tu allais partir, son visage s&#39;illumine et il te propose un marché : il t&#39;offre le long morceau de tissu si tu acceptes de livrer une lettre à une personne qui répondant au nom de &quot;Mathilde&quot;.
 Tu peux [[accepter le marché]] ou [[refuser le marché]].
 
 (link-goto: &quot;Voir l&#39;inventaire&quot;, &quot;inventaire&quot;)</tw-passagedata><tw-passagedata pid="154" name="un gueux" tags="" position="600,7325" size="100,100">Le pauvre hère te quémande quelques piécettes. Il voit bien que toi non plus tu n&#39;es pas riche, et plus que ça, il perçoit un léger désespoir en toi...
